@@ -1,0 +1,27 @@
+body{
+background-image: linear-gradient(rgb(132, 94, 132), rgb(95, 192, 225))
+}
+
+menu{
+text-align: center;
+}
+
+div{
+    background-color: white;
+    width: 200px;
+    height: 400px;
+    text-align: center;
+}
+
+div image{
+    width: 180px;
+}
+section{
+    display: flex; justify-content: center;
+    column-gap: 40px;
+}
+
+.div a::before{
+    background: #eeefee;
+    transform-origin: 80% 10%;
+}
